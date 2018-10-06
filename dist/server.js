@@ -17,5 +17,8 @@ class Server {
         });
         app.listen(this.port);
     }
+    getPort() {
+        return this.port;
+    }
 }
 exports.default = Server;
