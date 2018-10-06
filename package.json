@@ -1,0 +1,24 @@
+{
+  "name": "superchat",
+  "version": "1.0.0",
+  "description": "A simple test of typescript and node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watchAll",
+    "dev": "concurrently -k \"npx tsc --watch\" \"nodemon dist/index.js\""
+  },
+  "author": "Anthony",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "@types/jest": "^23.3.3",
+    "@types/node": "^10.11.4",
+    "concurrently": "^4.0.1",
+    "express": "^4.16.3",
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.4",
+    "ts-jest": "^23.10.4",
+    "typescript": "^3.1.1"
+  }
+}
